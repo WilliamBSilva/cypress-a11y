@@ -1,0 +1,48 @@
+[
+  {
+    "description": "Como usuario, desejo ter acessibilidade na tela de login\nPara que todos clientes possam acessar o site",
+    "keyword": "Feature",
+    "name": "Login a11y",
+    "line": 1,
+    "id": "login-a11y",
+    "tags": [],
+    "uri": "login-a11y.feature",
+    "elements": [
+      {
+        "id": "login-a11y;login-a11y",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Login a11y",
+        "tags": [
+          {
+            "name": "@SerieA",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "que estou na tela do site Cielo",
+            "result": {
+              "status": "passed",
+              "duration": 22983000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "valido se a tela esta de acordo com acessibilidade",
+            "result": {
+              "status": "passed",
+              "duration": 5335000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,129 @@
+[
+  {
+    "description": "Como usuario, desejo realizar o login\nPara que possa acessar o site",
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login;login",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Login",
+        "tags": [
+          {
+            "name": "@SerieA",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "que estou na tela do site Cielo",
+            "result": {
+              "status": "passed",
+              "duration": 30750000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "realizo o login \"2000463023\", \"automacao-site@loli\" e \"123456\"",
+            "result": {
+              "status": "passed",
+              "duration": 13389000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "sou direcionado para home do site cielo",
+            "result": {
+              "status": "passed",
+              "duration": 34000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "valido o nome do usuario na home \"automacao\"",
+            "result": {
+              "status": "passed",
+              "duration": 142000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;login",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Login",
+        "tags": [
+          {
+            "name": "@SerieA",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "que estou na tela do site Cielo",
+            "result": {
+              "status": "passed",
+              "duration": 2850000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "realizo o login \"2000463023\", \"automacao-site@loli\" e \"123456\"",
+            "result": {
+              "status": "passed",
+              "duration": 13353000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "sou direcionado para home do site cielo",
+            "result": {
+              "status": "passed",
+              "duration": 32000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "valido o nome do usuario na home \"William\"",
+            "result": {
+              "status": "failed",
+              "duration": 1000000,
+              "error_message": "AssertionError: Timed out retrying: expected '\\n        Nome do usuário logado...\\n        automacao.\\n      ' to include 'William'\n    at Context.eval (https://digitalhml.hdevelo.com.br/__cypress/tests?p=cypress\\integration\\login.feature:65:4)\n    at Context.resolveAndRunStepDefinition (https://digitalhml.hdevelo.com.br/__cypress/tests?p=cypress\\integration\\login.feature:10459:29)\n    at Context.eval (https://digitalhml.hdevelo.com.br/__cypress/tests?p=cypress\\integration\\login.feature:9780:35)"
+            },
+            "embeddings": [
+              {
+                "mime_type": "image/png"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

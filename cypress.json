@@ -1,0 +1,10 @@
+{
+    "env": {
+      "TAGS": "@SerieA"
+    },
+    "testFiles": "**/*.feature",
+    "experimentalSessionSupport": true,
+    "baseUrl":  "https://digitalhml.hdevelo.com.br/login",
+    "viewportWidth": 1366,
+    "viewportHeight": 768
+  }

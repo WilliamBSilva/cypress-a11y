@@ -1,0 +1,74 @@
+[
+  {
+    "description": "Como usuario, desejo ter acessibilidade na home\nPara que todos clientes possam navegar na home",
+    "keyword": "Feature",
+    "name": "Home a11y",
+    "line": 1,
+    "id": "home-a11y",
+    "tags": [],
+    "uri": "home-a11y.feature",
+    "elements": [
+      {
+        "id": "home-a11y;home-a11y",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Home a11y",
+        "tags": [
+          {
+            "name": "@SerieA",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "que estou na tela do site Cielo",
+            "result": {
+              "status": "passed",
+              "duration": 6245000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "realizo o login \"2000463023\", \"automacao-site@loli\" e \"123456\"",
+            "result": {
+              "status": "passed",
+              "duration": 12432000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "sou direcionado para home do site cielo",
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "valido se a Home esta de acordo com acessibilidade",
+            "result": {
+              "status": "failed",
+              "duration": 1472000000,
+              "error_message": "AssertionError: 7 accessibility violations were detected: expected 7 to equal 0\n    + expected - actual\n\n    -7\n    +0\n\n    at Context.eval (https://digitalhml.hdevelo.com.br/__cypress/tests?p=cypress\\support\\index.js:44:443712)"
+            },
+            "embeddings": [
+              {
+                "mime_type": "image/png"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
